@@ -64010,7 +64010,7 @@
     return A.de(s,A.fu(o,B.L,q,B.a8),B.r,j,j,B.wI,j,120,j,j,j,j,j,r)}}
     A.A_.prototype={
     L(a){var s,r=null,q=t.w,p=A.aL(a,B.D,q).w,o=t.E
-    p=A.de(B.cq,A.hX(A.a([A.fu(A.a([B.bl,B.Ae,B.i8,A.cY("Chankaya Srinivas Korada",r,r,A.c1(r,r,B.j,r,r,r,r,r,r,r,r,Math.min(0.03*A.aL(a,B.D,q).w.a.a,15),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r)],o),B.L,B.aN,B.a8),B.vu,A.fu(A.a([B.bl,B.Ac,B.i8,A.BO(!1,r,!0,A.cY("ckorada@hawk.iit.edu",r,r,A.c1(r,r,r,r,B.vB,r,r,r,r,r,r,Math.min(0.024*A.aL(a,B.D,q).w.a.a,12),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),r,!0,r,r,r,r,r,r,r,r,r,new A.OF(this),r,r,r,r),A.cY(",",r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,Math.min(0.024*A.aL(a,B.D,q).w.a.a,12),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r)],o),B.L,B.aN,B.a8),B.vu,A.fu(A.a([B.bl,B.Ad,B.i8,A.cY("(314) 709-3315",r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,Math.min(0.024*A.aL(a,B.D,q).w.a.a,12),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r)],o),B.L,B.aN,B.a8)],o),B.cD,B.bF),B.r,r,r,r,r,r,r,r,r,r,r,2*p.a.a/3)
+    p=A.de(B.cq,A.hX(A.a([A.fu(A.a([B.bl,B.Af,B.i8,A.cY("Chankaya Srinivas Korada",r,r,A.c1(r,r,B.j,r,r,r,r,r,r,r,r,Math.min(0.03*A.aL(a,B.D,q).w.a.a,15),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r)],o),B.L,B.aN,B.a8),B.vu,A.fu(A.a([B.bl,B.Ad,B.i8,A.BO(!1,r,!0,A.cY("ckorada@hawk.iit.edu",r,r,A.c1(r,r,r,r,B.vB,r,r,r,r,r,r,Math.min(0.024*A.aL(a,B.D,q).w.a.a,12),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),r,!0,r,r,r,r,r,r,r,r,r,new A.OF(this),r,r,r,r),A.cY(",",r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,Math.min(0.024*A.aL(a,B.D,q).w.a.a,12),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r)],o),B.L,B.aN,B.a8),B.vu,A.fu(A.a([B.bl,B.Ae,B.i8,A.cY("(314) 709-3315",r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,Math.min(0.024*A.aL(a,B.D,q).w.a.a,12),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r)],o),B.L,B.aN,B.a8)],o),B.cD,B.bF),B.r,r,r,r,r,r,r,r,r,r,r,2*p.a.a/3)
     s=A.aL(a,B.D,q).w
     return A.de(r,A.hX(A.a([A.fu(A.a([p,A.de(B.bT,A.fu(A.a([A.Bt(a,"Linkedin","assets/linkedin.png",u.x,this.c),B.bl],o),B.L,B.pu,B.a8),B.r,r,r,r,r,r,r,r,r,r,r,s.a.a/3)],o),B.L,B.bF,B.a8),A.cY("\u24b8 Developed by Chanakya Srinivas Korada",r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,Math.min(0.02*A.aL(a,B.D,q).w.a.a,10),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r)],o),B.L,B.bF),B.r,r,r,B.wJ,r,130,new A.ej(this.d,t.bT),r,r,r,r,r)}}
     A.OF.prototype={
@@ -64038,7 +64038,7 @@
     A.XH()
     s=t.w
     r=A.aL(a,B.D,s).w
-    q=A.de(k,A.adn(!1,B.Af,B.r,B.wH,0,0,!0,k,k,4,k,B.jK,8,k,4,k,k,new A.OS(l),B.fy,k,k),B.r,k,k,k,k,40,k,k,k,k,k,40)
+    q=A.de(k,A.adn(!1,B.Ac,B.r,B.wH,0,0,!0,k,k,4,k,B.jK,8,k,4,k,k,new A.OS(l),B.fy,k,k),B.r,k,k,k,k,40,k,k,k,k,k,40)
     r=r.a.a<=500?k:A.a([B.Hr,A.ZB(A.cY("About",k,k,A.c1(k,k,B.yz,k,k,k,k,k,k,k,k,k,k,k,B.ai,k,k,!0,k,k,k,k,k,k,k,k),k),new A.OT(l)),B.eQ,A.ZB(A.cY("Experience",k,k,A.c1(k,k,B.j,k,k,k,k,k,k,k,k,k,k,k,B.ai,k,k,!0,k,k,k,k,k,k,k,k),k),new A.OU(l)),B.eQ,A.ZB(A.cY("Projects",k,k,A.c1(k,k,B.j,k,k,k,k,k,k,k,k,k,k,k,B.ai,k,k,!0,k,k,k,k,k,k,k,k),k),new A.OV(l)),B.eQ,A.ZB(B.vF,new A.OW(l)),B.eQ],t.E)
     s=A.aL(a,B.D,s).w.a.a>500?k:new A.Cx(l.gWt(),k)
     p=J.a8s(5,t.l7)
@@ -67069,13 +67069,13 @@
     B.kh=new A.bX(24,0,400,0,48,B.j,1,null)
     B.Ab=new A.bX(null,null,null,null,null,B.i,null,null)
     B.A5=new A.eM(58307,!1)
-    B.Ac=new A.i6(B.A5,15,null,null)
+    B.Ad=new A.i6(B.A5,15,null,null)
     B.A7=new A.eM(58530,!1)
-    B.Ad=new A.i6(B.A7,15,null,null)
+    B.Ae=new A.i6(B.A7,15,null,null)
+    B.A9=new A.eM(61760,!1)
+    B.Ac=new A.i6(B.A9,null,null,null)
     B.A6=new A.eM(58513,!1)
-    B.Ae=new A.i6(B.A6,15,null,null)
-    B.A9=new A.eM(983881,!1)
-    B.Af=new A.i6(B.A9,null,null,null)
+    B.Af=new A.i6(B.A6,15,null,null)
     B.A8=new A.eM(58727,!1)
     B.Ag=new A.i6(B.A8,null,null,null)
     B.An=new A.nq(0,"repeat")
