@@ -10540,9 +10540,11 @@
     _.cy=a0
     _.db=a1},
     GZ:function GZ(){},
-    qz:function qz(a,b,c){this.f=a
-    this.y=b
-    this.a=c},
+    qz:function qz(a,b,c,d){var _=this
+    _.d=a
+    _.f=b
+    _.y=c
+    _.a=d},
     a8V(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1){return new A.n9(b,a1,k,a2,l,a4,m,a5,n,b0,q,b1,r,c,h,d,i,a,g,a7,o,a9,p,s,a0,a6,a3,f,j,e,a8)},
     al8(b7,b8,b9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6
     if(b7===b8)return b7
@@ -40692,27 +40694,29 @@
     return 2*s},
     gWZ(){var s=this.y
     return 2*s},
-    L(a){var s,r,q,p,o,n=null,m=A.a1(a),l=m.ax,k=l.e
-    l=k==null?l.c:k
-    s=l
-    r=m.p3.w.dG(s)
-    l=m.ax
-    k=l.d
-    l=k==null?l.b:k
-    q=l
-    if(q==null){l=r.b
-    l.toString
-    switch(A.vW(l).a){case 0:q=m.fy
+    L(a){var s,r,q,p,o,n,m=this,l=null,k=A.a1(a),j=k.ax,i=j.e
+    j=i==null?j.c:i
+    s=j
+    r=k.p3.w.dG(s)
+    q=m.d
+    if(q==null){j=k.ax
+    i=j.d
+    j=i==null?j.b:i
+    p=j}else p=q
+    if(p==null){j=r.b
+    j.toString
+    switch(A.vW(j).a){case 0:q=k.fy
     break
-    case 1:q=m.fx
-    break}}else if(s==null){null.toString
-    switch(A.vW(null).a){case 0:r.dG(m.fy)
+    case 1:q=k.fx
     break
-    case 1:r.dG(m.fx)
-    break}}p=this.gXa()
-    o=this.gWZ()
-    l=A.alr(B.wZ,this.f,n)
-    return A.ac6(n,new A.ak(p,o,p,o),B.aq,new A.cn(q,l,n,n,n,n,B.ft),B.a3,n,n)}}
+    default:q=p}}else{if(s==null){q.toString
+    switch(A.vW(q).a){case 0:r.dG(k.fy)
+    break
+    case 1:r.dG(k.fx)
+    break}}q=p}o=m.gXa()
+    n=m.gWZ()
+    j=A.alr(B.wZ,m.f,l)
+    return A.ac6(l,new A.ak(o,n,o,n),B.aq,new A.cn(q,j,l,l,l,l,B.ft),B.a3,l,l)}}
     A.n9.prototype={
     k(a,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this
     if(a0==null)return!1
@@ -65584,12 +65588,12 @@
     L(a){var s=null,r=this.d?B.cw:B.bY
     return A.co(r,A.eT(A.a([A.c3(this.c,s,s,A.bM(s,s,B.j,s,s,s,s,s,s,s,s,Math.min(0.0375*A.ay(a,B.E,t.w).w.a.a,15),s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s)],t.p),B.cI,B.aO,B.C),B.l,s,s,B.wY,s,120,s,s,s,s,s,400)}}
     A.BI.prototype={
-    J8(a,b,c,d,e,f,g,h){var s,r=t.p
+    J8(a,b,c,d,e,f,g,h,i){var s,r=t.p
     if(!b){s=t.w
-    r=A.a([A.rR(new A.eS(c),Math.min(0.0875*A.ay(a,B.E,s).w.a.a,50)),A.dm(null,null,Math.min(0.04*A.ay(a,B.E,s).w.a.a,40)),A.OE(!1,g,"",d,e,f)],r)}else r=A.a([A.OE(!1,h,"",d,e,f),B.bv,A.rR(new A.eS(c),50),B.bv,new A.r_(f,!0,null)],r)
+    r=A.a([A.rR(new A.eS(c),Math.min(0.0875*A.ay(a,B.E,s).w.a.a,50)),A.dm(null,null,Math.min(0.04*A.ay(a,B.E,s).w.a.a,40)),A.OE(!1,g,i,d,e,f)],r)}else r=A.a([A.OE(!1,h,i,d,e,f),B.bv,A.rR(new A.eS(c),50),B.bv,new A.r_(f,!0,null)],r)
     return A.eG(r,B.G,B.aO,B.C)},
-    L(a){var s=null,r="assets/education.png",q="assets/work.png",p="Banglore, India",o="Oct 2020 - Nov 2022",n="Specialist Programmer",m=t.w,l=A.ay(a,B.E,m).w.a.a>1000,k=A.c3("Education & Experience",s,s,A.bM(s,s,B.j,s,s,s,s,s,s,s,s,Math.min(0.06*A.ay(a,B.E,m).w.a.a,22),s,s,B.a4,s,s,!0,s,s,s,s,s,s,s,s),s),j=this.J8(a,l,r,"Illinois Institue of Technology, Chicagio, IL","","Jan 2023 - Dec 2024","Masters in Computer Science","Master of Science in Computer Science"),i=t.p
-    return A.co(s,A.eT(A.a([k,B.bR,j,B.bR,A.eG(l?A.a([new A.r_(o,!1,s),B.bv,A.rR(new A.eS(q),Math.min(0.0875*A.ay(a,B.E,m).w.a.a,50)),B.bv,A.OE(!0,n,"","Infosys",p,o)],i):A.a([A.rR(new A.eS(q),Math.min(0.0875*A.ay(a,B.E,m).w.a.a,50)),A.dm(s,s,Math.min(0.04*A.ay(a,B.E,m).w.a.a,40)),A.OE(!0,n,"","Infosys",p,o)],i),B.G,B.aO,B.C),B.bR,this.J8(a,l,r,"Gayatri Vidya Parishad College of Engineering","Visakhapatanam, India","Aug 2016 - Sep 2020","B.Tech in Computer Science","Batchelors of Technology in Computer Science"),B.bR],i),B.G,B.aO,B.C),B.l,s,s,s,s,s,new A.et(this.c,t.bT),s,s,s,s,s)}}
+    L(a){var s=null,r="assets/education.png",q="assets/work.png",p="Banglore, India",o="Oct 2020 - Nov 2022",n="Specialist Programmer",m="Collaborated on diverse client projects using Spring Boot, Java, React, Elasticsearch, Kafka, SugarCRM, and PHP.Contributed to CRM development, built React website for CRM with backend in Spring Boot.Revamped 52 modules using OOP, improving code reusability by 21%. Developed SQL data collection script, enhancing data integrity by 15%. Fixed critical backend bugs, improved system stability, and enhanced UI. Contributed to Sales Central backend, developed data processing feature for efficient data retrieval and analysis. Embraced Agile, SCRUM methodology for project management. Involved in all project phases: analysis, design, development, and testing.",l=t.w,k=A.ay(a,B.E,l).w.a.a>1000,j=A.c3("Education & Experience",s,s,A.bM(s,s,B.j,s,s,s,s,s,s,s,s,Math.min(0.06*A.ay(a,B.E,l).w.a.a,22),s,s,B.a4,s,s,!0,s,s,s,s,s,s,s,s),s),i=this.J8(a,k,r,"Illinois Institue of Technology, Chicagio, IL","","Jan 2023 - Dec 2024","Masters in Computer Science","Master of Science in Computer Science",'I have excelled in various subjects during my master\'s program, including Advanced Database Organization, Computer Networks, Information Security, Mobile Application Development, and Software Engineering, achieving a perfect CGPA of 4.0/4.0. Notable projects include developing a News Feed Application using Flutter, creating a Backend System for SQL Database Storage Management,and designing "Geek Connect," an interactive platform for students, TAs, and professors using Spring and Java. These experiences showcase my expertise in software development, database management, and project management, highlighting my ability to deliver innovative solutions and collaborate effectively in team environments.'),h=t.p
+    return A.co(s,A.eT(A.a([j,B.bR,i,B.bR,A.eG(k?A.a([new A.r_(o,!1,s),B.bv,A.rR(new A.eS(q),Math.min(0.0875*A.ay(a,B.E,l).w.a.a,50)),B.bv,A.OE(!0,n,m,"Infosys",p,o)],h):A.a([A.rR(new A.eS(q),Math.min(0.0875*A.ay(a,B.E,l).w.a.a,50)),A.dm(s,s,Math.min(0.04*A.ay(a,B.E,l).w.a.a,40)),A.OE(!0,n,m,"Infosys",p,o)],h),B.G,B.aO,B.C),B.bR,this.J8(a,k,r,"Gayatri Vidya Parishad College of Engineering","Visakhapatanam, India","Aug 2016 - Sep 2020","B.Tech in Computer Science","Batchelors of Technology in Computer Science",""),B.bR],h),B.G,B.aO,B.C),B.l,s,s,s,s,s,new A.et(this.c,t.bT),s,s,s,s,s)}}
     A.Dd.prototype={
     L(a){var s=this,r=null,q=A.a([B.zG,A.Ul(new A.Vr(s,a),B.M0),A.Ul(new A.Vs(s,a),B.M_),A.Ul(new A.Vt(s,a),B.LZ),A.Ul(new A.Vu(s,a),B.vS)],t.p),p=A.aJ([null,0],t.LO,t.S),o=!0
     o=o?B.wq:r
@@ -65618,25 +65622,25 @@
     else s=h<900?h*0.4:h*0.22
     r=Math.max(150,Math.min(2*h/3,200))
     q=this.d[i]?B.z1:B.fS
-    return A.rY(!1,B.c_,!0,A.co(B.N,A.eT(A.a([new A.qz(new A.eS(a),g,p),A.c3(c,p,!0,A.bM(p,p,B.j,p,p,p,p,p,p,p,p,Math.min(0.0375*h,15),p,p,B.a4,p,p,!0,p,p,p,p,p,p,p,p),B.b1),A.dm(p,10,p),A.c3(e,2,p,A.bM(p,p,B.j,p,p,p,p,p,p,p,p,Math.min(0.0325*h,13),p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.b1)],t.p),B.G,B.aO,B.C),B.l,p,p,new A.cn(q,p,p,B.c_,p,p,B.aA),p,r,p,p,p,p,p,s),p,!0,p,p,p,p,p,p,p,new A.a55(this,i),p,new A.a56(this,b,c,d,f),p,p,p,p)},
-    L(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="https://github.com/Chanakya-Srinivas/FingerTips",f="assets/timetable.png",e="assets/timetable2.png",d=A.ay(a,B.E,t.w).w.a.a,c=d<600
-    if(c)s=Math.max(770,Math.min(17*d/5,1000))
-    else s=d<900?550:300
+    return A.rY(!1,B.c_,!0,A.co(B.N,A.eT(A.a([new A.qz(B.i,new A.eS(a),g,p),A.c3(c,p,!0,A.bM(p,p,B.j,p,p,p,p,p,p,p,p,Math.min(0.0375*h,15),p,p,B.a4,p,p,!0,p,p,p,p,p,p,p,p),B.b1),A.dm(p,10,p),A.c3(e,2,p,A.bM(p,p,B.j,p,p,p,p,p,p,p,p,Math.min(0.0325*h,13),p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.b1)],t.p),B.G,B.aO,B.C),B.l,p,p,new A.cn(q,p,p,B.c_,p,p,B.aA),p,r,p,p,p,p,p,s),p,!0,p,p,p,p,p,p,p,new A.a55(this,i),p,new A.a56(this,b,c,d,f),p,p,p,p)},
+    L(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="https://github.com/Chanakya-Srinivas/FingerTips",f=A.ay(a,B.E,t.w).w.a.a,e=f<600
+    if(e)s=Math.max(770,Math.min(17*f/5,1000))
+    else s=f<900?550:300
     r=i.a.c
-    q=A.c3("Projects",h,h,A.bM(h,h,B.j,h,h,h,h,h,h,h,h,Math.min(0.05*d,20),h,h,B.a4,h,h,!0,h,h,h,h,h,h,h,h),h)
-    p=d<900
+    q=A.c3("Projects",h,h,A.bM(h,h,B.j,h,h,h,h,h,h,h,h,Math.min(0.05*f,20),h,h,B.a4,h,h,!0,h,h,h,h,h,h,h,h),h)
+    p=f<900
     o=p?B.ai:B.aa
-    n=c?B.ai:B.aa
-    m=i.uB("assets/fingertips.png","assets/fingertips2.png","FingerTips","Fingertips is a go-to destination for staying informed and up-to-date with the latest news and happenings around the world. With a sleek and intuitive design, this app offers a seamless experience for users who crave real-time information tailored to their interests.","Flutter, MySQL",g,50,d,0)
-    l=c?30:h
+    n=e?B.ai:B.aa
+    m=i.uB("connect2.png","connect.png","GeekConnect","Developed Student Assist application facilitating effortless communication among students, TAs, and professors for questions,group assignments, and grading, enhancing collaboration and reducing friction. Designed user categories with specific roles andfunctionalities, ensuring efficient management and access control. Implemented functional requirements like secure login, channelcreation, file sharing, and automated notifications, meeting high-performance standards and user-friendly interface for all devices,prioritizing user security and privacy.","Spring Framework, Java, JavaScript, Kafka, Elasticsearch, Docker","https://github.com/Chanakya-Srinivas/geekconnect",50,f,0)
+    l=e?30:h
     k=t.p
-    n=A.ru(A.a([m,A.dm(h,l,c?h:30),i.uB(f,e,"Timetable Generator","Designed and implemented a web application that replaces the manual creation of class and faculty timetables with a smart and efficient method. The admin can log in, manage faculty load, align subjects based on experience, and generate timetables they can also schedule events based on available time slots for faculty and students.","Spring Framework, Java, JavaScript, Bootstrap",g,50,d,1)],k),B.G,n,h,B.be,B.C,h,h,B.am)
+    n=A.ru(A.a([m,A.dm(h,l,e?h:30),i.uB("assets/fingertips.png","assets/fingertips2.png","FingerTips","Fingertips is a go-to destination for staying informed and up-to-date with the latest news and happenings around the world. With a sleek and intuitive design, this app offers a seamless experience for users who crave real-time information tailored to their interests.","Flutter, MySQL",g,50,f,1)],k),B.G,n,h,B.be,B.C,h,h,B.am)
     m=p?30:h
-    m=A.dm(h,m,p?h:d*0.005)
-    p=c?B.ai:B.aa
-    l=i.uB("assets/database.png","assets/database2.png","SQL Data Storage Management System","Implemented an SQL Data Storage Manager capable of maintaining tables in a file using a B+ tree. It can access records of a table through a buffer pool and perform basic SQL operations on a table.","C, Data Structures & Algorithms",g,50,d,2)
-    j=c?30:h
-    return A.co(h,A.eT(A.a([q,B.bR,A.ru(A.a([n,m,A.ru(A.a([l,A.dm(h,j,c?h:30),i.uB(f,e,"projectName","","languages","url",50,d,3)],k),B.G,p,h,B.be,B.C,h,h,B.am),B.bR],k),B.G,o,h,B.be,B.C,h,h,B.am)],k),B.G,B.a5,B.C),B.l,h,h,h,h,s,new A.et(r,t.bT),h,h,h,h,h)}}
+    m=A.dm(h,m,p?h:f*0.005)
+    p=e?B.ai:B.aa
+    l=i.uB("assets/database.png","assets/database2.png","SQL Data Storage Management System","Implemented an SQL Data Storage Manager capable of maintaining tables in a file using a B+ tree. It can access records of a table through a buffer pool and perform basic SQL operations on a table.","C, Data Structures & Algorithms",g,50,f,2)
+    j=e?30:h
+    return A.co(h,A.eT(A.a([q,B.bR,A.ru(A.a([n,m,A.ru(A.a([l,A.dm(h,j,e?h:30),i.uB("assets/timetable.png","assets/timetable2.png","Timetable Generator","Designed and implemented a web application that replaces the manual creation of class and faculty timetables with a smart and efficient method. The admin can log in, manage faculty load, align subjects based on experience, and generate timetables they can also schedule events based on available time slots for faculty and students.","Spring Framework, Java, JavaScript, Bootstrap",g,50,f,3)],k),B.G,p,h,B.be,B.C,h,h,B.am),B.bR],k),B.G,o,h,B.be,B.C,h,h,B.am)],k),B.G,B.a5,B.C),B.l,h,h,h,h,s,new A.et(r,t.bT),h,h,h,h,h)}}
     A.a56.prototype={
     $0(){var s=this,r=s.a,q=r.c
     q.toString
@@ -68535,7 +68539,7 @@
     B.ym=new A.qw(null,null,null,null,null,null,null,null,null)
     B.yn=new A.qy(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
     B.wu=new A.eS("assets/chanakya3.png")
-    B.yo=new A.qz(B.wu,80,null)
+    B.yo=new A.qz(null,B.wu,80,null)
     B.jJ=new A.cL(0,B.m)
     B.yp=new A.At(B.hV)
     B.Gy=new A.vf(2,"clear")
